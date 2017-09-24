@@ -24,6 +24,7 @@ end
 
 group :development, :test do
   gem 'pry-byebug'
+  gem "minitest", "5.10.1"
   gem 'pry-rails'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
